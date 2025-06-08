@@ -1,6 +1,6 @@
 ## Lobsters Feed extractor with feedparser and rich
 
-I am enjoying https://lobster.rs on my terminal.
+I am enjoying https://lobste.rs on my terminal.
 
 
 # Usage
