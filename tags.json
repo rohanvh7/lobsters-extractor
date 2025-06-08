@@ -1,0 +1,153 @@
+{
+  "compsci": {
+    "ai": "Developing artificial intelligence, machine learning. Tag AI usage only with `vibecoding`.",
+    "compsci": "Other computer science/programming",
+    "distributed": "Distributed systems",
+    "formalmethods": "Formal methods",
+    "graphics": "Graphics programming",
+    "networking": "Networking",
+    "osdev": "Operating system design and development when no specific OS tag exists",
+    "plt": "Programming language theory, types, design",
+    "programming": "Use when every tag or no specific tag applies"
+  },
+  "culture": {
+    "culture": "Technical communities and culture",
+    "law": "Law, patents, and licensing",
+    "person": "Stories about particular persons",
+    "philosophy": "Philosophy"
+  },
+  "field": {
+    "cogsci": "Cognitive Science",
+    "cryptography": "Cryptography",
+    "education": "Education",
+    "finance": "Finance and economics",
+    "hardware": "Hardware",
+    "math": "Mathematics",
+    "science": "It's \"Science\""
+  },
+  "format": {
+    "ask": "Ask Lobsters",
+    "audio": "Link to audio (podcast, interview)",
+    "book": "Link to a book (not an ad or review)",
+    "pdf": "Link to a PDF document",
+    "show": "Show Lobsters / Projects",
+    "slides": "Slide deck",
+    "transcript": "Includes transcript of audio or video",
+    "video": "Link to a video"
+  },
+  "video": {
+    "video": "Link to a video"
+  },
+  "genre": {
+    "art": "Art",
+    "event": "Events, conferences, and meetups",
+    "historical": "History and retrospectives (not for things that happen to be old)",
+    "job": "Employment/Internship opportunities",
+    "news": "General news and current events | inactive",
+    "rant": "Rants and raves",
+    "release": "Software releases and announcements",
+    "satire": "Satire, parody, and other humor"
+  },
+  "interaction": {
+    "a11y": "accessibility, assistive technology, standards",
+    "design": "Visual design",
+    "visualization": "Data visualization"
+  },
+  "standards": {
+    "a11y": "accessibility, assistive technology, standards"
+  },
+  "languages": {
+    "apl": "Array Programming Languages such as APL, J, and K",
+    "assembly": "Assembly programming",
+    "c": "C programming",
+    "c++": "C++ programming",
+    "clojure": "Clojure programming",
+    "concatenative": "stackbased languages like Forth, Factor, Joy",
+    "css": "Cascading Style Sheets",
+    "d": "D programming",
+    "dotnet": "C#, F#, .NET programming",
+    "elixir": "Elixir programming",
+    "elm": "Elm programming",
+    "erlang": "Erlang development",
+    "fortran": "Fortran programming",
+    "gleam": "Strongly-typed BEAM language",
+    "go": "Golang programming",
+    "haskell": "Haskell programming",
+    "java": "Java programming",
+    "javascript": "Javascript programming",
+    "kotlin": "Kotlin programming",
+    "lisp": "Lisp and Scheme programming",
+    "lua": "Lua programming",
+    "ml": "MetaLanguage, OCaml programming",
+    "nodejs": "Node.js programming",
+    "objectivec": "Objective-C programming",
+    "perl": "Perl programming",
+    "php": "PHP programming",
+    "python": "Python programming",
+    "ruby": "Ruby programming",
+    "rust": "Rust programming",
+    "scala": "Scala programming",
+    "swift": "Swift programming",
+    "zig": "Zig programming"
+  },
+  "lobsters": {
+    "announce": "Site anouncement",
+    "interview": "Lobsters interviews",
+    "meta": "Lobsters-related bikeshedding - report bugs at https://github.com/lobsters/lobsters"
+  },
+  "os": {
+    "android": "Android",
+    "dragonflybsd": "DragonFly BSD",
+    "freebsd": "FreeBSD",
+    "illumos": "illumos",
+    "ios": "Apple iOS",
+    "linux": "Linux",
+    "mac": "Apple macOS",
+    "netbsd": "NetBSD",
+    "nix": "package manager, distribution, and related systems like guix",
+    "openbsd": "OpenBSD",
+    "unix": "*nix",
+    "windows": "Windows"
+  },
+  "systems like guix": {
+    "nix": "package manager, distribution, and related systems like guix"
+  },
+  "platforms": {
+    "browsers": "Web browsers",
+    "email": "e-mail",
+    "games": "Game design and study",
+    "ipv6": "IPv6 | inactive",
+    "merkle-trees": "And related similar data structures. Not business/scam news.",
+    "mobile": "Mobile app/web development",
+    "retrocomputing": "Reproductions, emulators, and other revivals of historic technologies",
+    "wasm": "webassembly",
+    "web": "Web development and news"
+  },
+  "practices": {
+    "api": "API development/implementation",
+    "debugging": "Debugging techniques",
+    "devops": "DevOps",
+    "performance": "Performance and optimization",
+    "practices": "Development and team practices",
+    "privacy": "Privacy",
+    "reversing": "Reverse engineering",
+    "scaling": "Scaling and architecture",
+    "security": "Netsec, appsec, and infosec",
+    "testing": "Software testing",
+    "virtualization": "Virtualization"
+  },
+  "tools": {
+    "compilers": "Compiler design",
+    "databases": "Databases (SQL, NoSQL)",
+    "editors": "Code editors and IDEs without a specific tag",
+    "emacs": "Emacs editor",
+    "systemd": "Linux systemd",
+    "vcs": "Git, Mercurial, Perforce, Subversion and other version control systems",
+    "vibecoding": "Using AI/LLM, coding tools. Don't also tag with `ai`.",
+    "vim": "Vim editor",
+    "vscode": "Visual Studio Code editor"
+  },
+  "specific-tags": {
+    "vibecoding": "Using AI/LLM, coding tools. Don't also tag with `ai`."
+  }
+}
