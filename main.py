@@ -1,8 +1,9 @@
 import configparser
 import argparse
+import json
+
 from rich.console import Console
 from rich.table import Table
-from rich.table import Column
 import feedparser
 
 
@@ -21,10 +22,19 @@ def tag_lister():
     console.print(table)
 
 def feed_extractor(tag:str):
-
    URL=f"https://lobste.rs/t/{tag}.rss"
    feed_obj=feedparser.parse(URL)
-   print(feed_obj.entries)
+
+   table=Table(title=f"Posts Table for {tag}",show_lines=True)
+
+   table.add_column(header="Title",justify='center')
+   table.add_column(header="Link",justify='center')
+
+   for item in json.loads(json.dumps(feed_obj.entries)):
+       table.add_row(item['title'],item['link'])
+    
+   console = Console()
+   console.print(table)
 
 def parse_args():
     parser=argparse.ArgumentParser(description="""
